@@ -2,7 +2,7 @@
       background-color:rgb(243,229,216) ;
       margin: 0;
       padding: 0;
-      height: 420vh; 
+      height: 2350px; 
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -117,7 +117,7 @@
 
     @media (min-width:768px) {
       body{
-        height: 400vh; 
+        height: 2100px; 
       }
 
       .recipe-container{
@@ -192,7 +192,7 @@
 
     @media (min-width:1024px) {
       body{
-        height: 400vh; 
+        height: 1850px; 
       }
 
       .recipe-container{
@@ -222,7 +222,7 @@
 
     @media (min-width:1440px) {
       body{
-        height: 240vh; 
+        height: 1950px; 
       }
 
       .recipe-container{
