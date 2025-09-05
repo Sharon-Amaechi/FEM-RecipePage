@@ -1,0 +1,273 @@
+    body{
+      background-color:rgb(243,229,216) ;
+      margin: 0;
+      padding: 0;
+      height: 420vh; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .recipe-container{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 310px;
+    }
+
+    img{
+      width: 100%;
+
+    }
+
+    .recipe-content{
+      padding-bottom: 50px;
+      width: 260px;
+    }
+
+    h1{
+      font-family: "Young Serif", serif;
+      font-size: 27px;
+      font-weight: 400;
+      color: hsl(24, 5%, 18%);
+      
+    }
+
+    p,
+    ul li,
+    ol li {
+      font-family: "Outfit", sans-serif;
+      color: hsl(30, 10%, 34%);
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    li{
+      padding-left: 5px;
+    }
+
+    .preparation-section{
+      background-color: rgb(255,247,252);
+      border-radius: 10px;
+      padding: 2px  20px;
+    }
+
+    h3{
+      color: hsl(332, 51%, 32%);
+      font-family: "Outfit", sans-serif;
+      font-weight: 700;
+    }
+
+    ul,
+    ol{
+      padding-left: 20px;
+      line-height: 30px;
+    }
+
+    h2{
+      color: hsl(14, 45%, 36%);
+      font-family: "Young Serif", serif;
+      font-weight: 400;
+    }
+
+    .ingredients-section{
+      padding-bottom: 18px;
+      border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    .instructions-section{
+      padding-bottom: 18px;
+      border-bottom: 1px solid hsl(30, 18%, 87%);
+      
+    }
+
+    ol li{
+      padding-bottom: 10px;
+    }
+    
+    span{
+      font-weight: 600;
+    }
+
+    .row{
+      display: flex;
+      flex-direction: row;
+      padding-left: 30px;
+    }
+
+    .row {
+      p{
+        width: 130px;
+      }
+
+      [data-type="value"]{
+        color: hsl(14, 45%, 36%);
+        font-weight: 600;
+      }
+
+      border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    .row:last-of-type{
+      border-bottom: none;
+    }
+
+    @media (min-width:768px) {
+      body{
+        height: 400vh; 
+      }
+
+      .recipe-container{
+        width: 500px;
+        border-radius: 25px;
+      }
+
+      .image-container{
+        width: 450px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img{
+        width: 100%;
+        border-radius: 15px;
+      }
+  
+      .recipe-content{
+        padding-bottom: 50px;
+        padding-top: 0px;
+        width: 430px;
+      }
+
+      h1{
+        font-size: 30px; 
+        margin: 0px 0;
+      }
+
+      p,
+      ul li,
+      ol li {
+        font-size: 16px;
+      }
+
+      li{
+        padding-left: 10px;
+      }
+
+      h3{
+        font-size: 18px;
+      }
+
+      ul,
+      ol{
+        padding-left: 30px;
+        line-height: 25px;
+      }
+
+      h2{
+        font-size:25px;
+      }
+    
+      ol li,
+      ul li{
+        padding-bottom: 15px;
+      }
+
+      .row{
+        padding-left: 30px;
+      }
+
+      .row {
+        p{
+          width: 250px;
+        }
+      }
+    }
+
+    @media (min-width:1024px) {
+      body{
+        height: 400vh; 
+      }
+
+      .recipe-container{
+        width: 700px;
+      }
+
+      .image-container{
+        width: 650px;
+        height: 350px;
+      }
+  
+      .recipe-content{
+        padding-bottom: 50px;
+        padding-top: 0px;
+        width: 630px;
+      }
+
+      li{
+        padding-left: 20px;
+      }
+
+      ol li,
+      ul li{
+        padding-bottom: 10px;
+      }
+    }
+
+    @media (min-width:1440px) {
+      body{
+        height: 240vh; 
+      }
+
+      .recipe-container{
+        width: 800px;
+      }
+
+      .image-container{
+        width: 730px;
+        height: 400px;
+      }
+
+      .recipe-content{
+        width: 700px;
+      }
+
+      h1{
+        font-size: 35px; 
+      }
+
+      p,
+      ul li,
+      ol li {
+        font-size: 17px;
+      }
+
+      li{
+        padding-left: 25px;
+      }
+
+      h3{
+        font-size: 20px;
+      }
+
+      h2{
+        font-size:27px;
+      }
+
+      .row{
+        padding-left: 35px;
+      }
+
+      .row {
+        p{
+          width: 350px;
+        }
+      }
+    }
+
